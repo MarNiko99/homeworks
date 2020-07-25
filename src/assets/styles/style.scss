@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imagesList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .imageItem {
+    width: calc(20% - 10px);
+    height: 250px;
+    object-fit: contain;
+    margin: 5px;
+    background-color: gray;
+  }
+}
